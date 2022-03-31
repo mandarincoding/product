@@ -1,0 +1,244 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+html, body {
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.logo {
+  width: 200px;
+  height: 50px;
+  background-image: url(../img/로고.png);
+  background-position: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 1.2%; }
+
+.menuBox {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  background-color: rgba(255, 217, 0, 0.678);
+  z-index: 50;
+  display: inline-block; }
+
+.menuBox > ul {
+  float: right;
+  width: 20%;
+  height: 90px; }
+
+.menuBox > ul > li {
+  display: inline-block;
+  width: 30%;
+  height: 90px;
+  line-height: 90px; }
+
+li {
+  list-style: none; }
+
+.bestProduct > a {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 200px; }
+
+.saleProduct > a {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 200px; }
+
+header {
+  width: 100%;
+  min-width: 100%;
+  height: 90px;
+  text-align: left; }
+
+.imgBox {
+  width: 100%;
+  height: 1500px;
+  text-align: center; }
+
+.vitamin {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 50px; }
+
+.vitamin > img {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  text-align: center; }
+
+.sell {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px; }
+
+.name {
+  width: 270px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 18px;
+  font-weight: 600; }
+
+.price :nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+  color: red; }
+
+.price :nth-child(2) {
+  font-size: 12px;
+  text-decoration: line-through; }
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none; }
+
+.info {
+  width: 270px;
+  height: 50px;
+  display: inline-block;
+  background-color: #ffd900;
+  line-height: 50px;
+  margin-top: 20px; }
+
+.info:hover {
+  background-color: rgba(255, 217, 0, 0.678); }
+
+.footer {
+  background-color: lightgray;
+  margin-top: 500px; }
+
+.grade {
+  width: 100px;
+  height: 100px; }
+
+.grade {
+  width: 100px;
+  height: 100px; }
+
+.history {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%; }
+
+.membership {
+  display: inline-block;
+  margin-top: 100px;
+  width: 90%;
+  height: 300px;
+  background-color: rgba(211, 211, 211, 0.466);
+  text-align: center; }
+
+.membershipInfo > article > span {
+  font-size: 20px;
+  font-weight: 600; }
+
+.membershipInfo {
+  margin-top: 150px;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: inline-block; }
+
+.one {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  display: inline-block;
+  background-image: url("../img/나무.jpg");
+  position: relative;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.two {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  margin-top: -4px;
+  display: inline-block;
+  background-image: url("../img/믹스과일.jpg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%; }
+
+.three {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  margin-top: -4px;
+  display: inline-block;
+  background-image: url("../img/네이쳐스웨이.jpg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%; }
+
+.hide {
+  opacity: 0;
+  margin-left: -300px;
+  max-width: 100%; }
+
+.hidetwo {
+  animation-name: hidetwo;
+  animation-duration: 2s; }
+
+@keyframes hidetwo {
+  from {
+    opacity: 0;
+    margin-left: -300px; }
+  to {
+    opacity: 1;
+    margin-left: 0; } }
+.oneInfo {
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: black; }
+
+.oneInfo2 {
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  color: black; }
+
+.oneInfo3 {
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: black; }
+
+footer {
+  width: 100%;
+  min-width: 100%;
+  height: 100px;
+  display: inline-block; }
+
+/*# sourceMappingURL=alive.css.map */
